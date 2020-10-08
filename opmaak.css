@@ -1,0 +1,35 @@
+body{
+    width: 1000px;
+    background-color: #C9E3F4;
+    margin: auto;
+}
+header{
+    padding: 0px 0px 70px 0px; /* shorthand voor top, richt, bottom, left*/
+    background-color: white;
+    border-radius: 15px;
+    padding:15px;
+    margin:20;
+}
+section{
+    background-color: white;
+    border-radius: 15px;
+    margin: 20px;
+}
+article{
+
+}
+#hobbyWebsiteLogo
+{
+    float: left;
+}
+nav{
+    float:left;
+    padding: 10px 20px 10px 20px;
+    background: pink;
+}
+nav a{
+    text-decoration: none;
+    padding: 0px 20px 0px 20px;
+    color: white;
+}
+

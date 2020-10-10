@@ -1,22 +1,39 @@
 body{
-    width: 1000px;
+    width: 100%;
     background-color: #C9E3F4;
-    margin: auto;
+    margin-left: auto;
+    margin-right: auto;
 }
 header{
-    padding: 0px 0px 70px 0px; /* shorthand voor top, richt, bottom, left*/
+    padding: 15px 15px 70px 15px; /* shorthand voor top, richt, bottom, left*/
     background-color: white;
     border-radius: 15px;
-    padding:15px;
-    margin:20;
-}
+    }
 section{
     background-color: white;
     border-radius: 15px;
     margin: 20px;
+    flex: 70%;
+    padding: 20px;
 }
 article{
+    flex: 70%;
+    display: inline-block;
+    align-items: flex-start;
+    width: 70%;
+    height:600Px ;
 
+}
+aside{
+    
+    background-color:pink ;
+    display: block;
+    font-family: cursive;
+    width: 20%;
+    height: 550px;
+    padding: 15px;
+    float: right;
+    
 }
 #hobbyWebsiteLogo
 {
@@ -26,10 +43,32 @@ nav{
     float:left;
     padding: 10px 20px 10px 20px;
     background: pink;
+
 }
 nav a{
     text-decoration: none;
-    padding: 0px 20px 0px 20px;
-    color: white;
+    padding: 10px 20px 10px 20px;
+    color: white; 
 }
+ 
+nav a:hover{
+    background-color: white;
+    color: pink;
+    
+}
+H1{
+    color: rgb(71, 38, 216);
+    font-variant: small-caps;
+    font-weight: bold;
+}
+
+h2{
+    color: blue;
+    font-variant: small-caps;
+    border-radius: 2px;
+    border: blue;
+    border-style: dotted;
+    border-width: 30%;
+}
+
 
